@@ -1,0 +1,21 @@
+1. Descrição dissertativa
+
+    Entrada
+    • Ler um valor inteiro n (0 ≤ n ≤ 10).
+
+    Processamento
+
+        Calcular a dezena:
+
+            dezena ← n − 1
+
+        Calcular a unidade:
+
+            unidade ← 10 − n
+
+        Combinar dígitos:
+
+            resultado ← (dezena × 10) + unidade
+
+    Saída
+    • Imprimir o valor de resultado.
