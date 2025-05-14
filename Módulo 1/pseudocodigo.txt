@@ -1,0 +1,20 @@
+Algoritmo "Tabuada9"
+  
+  // Entrada
+  Leia n
+  
+  // Validação opcional
+  Se (n < 0) ou (n > 10) então
+    Escreva "Entrada inválida"
+    Pare
+  FimSe
+  
+  // Processamento
+  dezena   ← n − 1
+  unidade  ← 10 − n
+  resultado ← dezena * 10 + unidade
+  
+  // Saída
+  Escreva "9 x", n, "=", resultado
+
+FimAlgoritmo
