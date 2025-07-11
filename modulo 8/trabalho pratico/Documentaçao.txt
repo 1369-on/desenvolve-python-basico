@@ -1,0 +1,20 @@
+# Introdução
+
+A empresa modelada é a **PetAmigo**, um pequeno pet shop de bairro que oferece serviços de banho, tosa, consulta veterinária e venda de produtos como ração, brinquedos e remédios para pets.
+
+Tipos de usuários:
+- Gerente: acesso total ao sistema.
+- Funcionário: pode visualizar e alterar produtos e serviços, mas não pode excluir usuários.
+- Cliente: apenas consulta produtos e serviços, sem acesso à edição.
+
+Produtos e serviços:
+- Produtos: ração, brinquedos, shampoos, etc.
+- Serviços: banho, tosa, consulta, vacinação.
+
+# Implementação
+
+## Usuários
+
+1. **Estrutura de dados:** Lista de dicionários. Cada dicionário representa um usuário com campos como `id`, `nome`, `login`, `senha`, `tipo`.
+
+2. **Arquivo de registro:** `usuarios.csv`, com campos separados por vírgula:

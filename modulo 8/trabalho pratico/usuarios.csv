@@ -1,0 +1,4 @@
+id,nome,login,senha,tipo
+1,Ana,ana123,123,gerente
+2,João,joao456,456,funcionario
+3,Clara,clara789,789,cliente

@@ -1,0 +1,6 @@
+tipo,id,nome,preco,quantidade,descricao
+produto,1,Ração,89.90,10,
+produto,2,Bola,15.50,20,
+servico,3,Banho,50.00,,Banho completo com secagem
+servico,4,Consulta,100.00,,Consulta com veterinário
+test,5,abc,12,1,
